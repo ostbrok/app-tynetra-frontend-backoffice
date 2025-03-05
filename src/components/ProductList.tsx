@@ -33,7 +33,7 @@ const statusColors: Record<string, string> = {
 export default function ProductList() {
   return (
     <div className="p-4 max-w-2xl mx-auto space-y-4">
-      <h1 className="text-2xl font-bold">Список задач</h1>
+      <h1 className="text-2xl font-bold">Список продуктов</h1>
       {tasks.map((task) => (
         <Card key={task.id} className="border rounded-lg shadow-sm">
           <CardHeader>
